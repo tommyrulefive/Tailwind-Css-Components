@@ -29,3 +29,12 @@
             </ul>
         </div>
     </nav>
+
+
+<!-- Javascript for navbar toggle function-->
+
+ 	<script>
+		document.getElementById('nav-toggle').onclick = function(){
+			document.getElementById("nav-content").classList.toggle("hidden");
+		}
+	</script>
